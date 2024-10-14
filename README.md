@@ -16,3 +16,9 @@ The project consists of the following Kubernetes resources:
 - **Secret**: Stores sensitive information, including MongoDB credentials.
 - **Deployment**: Deploys the MongoDB and Mongo Express applications.
 - **Service**: Exposes the applications to allow external access.
+
+Use this command for minikube(it works a bit differently then the deployment in actaul production environmnet).
+
+```bash
+minikube service mongo-express-service
+```
